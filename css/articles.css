@@ -1,0 +1,76 @@
+/*  Setting a base size for text.*/
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.6rem;
+}
+
+header, footer { 
+  text-align: center;
+}
+/*
+The text element for the entire page is now set to a default size of 1.6rem (rem = root em unit). This becomes the baseline for all text, and the basis for a grid system. 
+After these style rules, I only have to provide sizes in the CSS for elements that are different from the base size, such as headings.  Weird text cascade effects are also avoided with this approach.
+*/  
+
+#container {
+  max-width: 40%;
+  margin: auto;
+}
+
+.article1 {
+  background: #ffb3b3;
+  color: darkblue;
+  padding: 10px;
+  border: 8px solid #3300cc;
+  border-radius: 30px/10px; /* horizontal radius / vertical radius */
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.article2 {
+  background: #D3D3D3;
+  color: #0e492d;
+  padding: 12px;
+  border: 5px solid #000;
+  border-radius: 50px;
+  font-family: Georgia, serif;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.article3 {
+  background: #dd1021;
+  color: lightyellow;
+  padding: 20px;
+  border: 18px solid #ffcc00;
+  border-radius: 10px;
+  font-family: Baskerville, serif;
+  font-size: 22px;
+  line-height: 31px;
+}
+
+.article4 {
+  background: #000099;
+  color: #CCCCFF;
+  padding: 20px;
+  border: 16px solid #000;
+  border-radius: 10px/30px; /* horizontal radius / vertical radius */
+  font-family: "Lucida Grande", sans-serif;
+  font-size: 1.2em;
+  line-height: 120%;
+}
+
+.article5 {
+  background: lightgreen;
+  color: ffb3b3;
+  padding: 20px;
+  border: 5px solid #3300cc;
+  border-radius: 50px 50px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+}
